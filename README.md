@@ -68,11 +68,11 @@ result = BytesFinder.FindIndex(source, "?? ?? ?? ?? ?? ?? ?? ?? ??");
  ## Speed Test
 
 10byte ~ 16MB random data, a thousand times:
-```
-Debug: bytes pattern cost is 1309.7017 , string pattern cost is 948.357200000001 , wildcard string pattern cost is 32906.4641, Boyer Moore algorithm implementation is 1440.9692
+ 
+>Debug: bytes pattern cost is 1309.7017 , string pattern cost is 948.357200000001 , wildcard string pattern cost is 32906.4641, Boyer Moore algorithm implementation is 1440.9692
 
-Release: bytes pattern cost is 676.126699999998 , string pattern cost is 608.047799999999 , wildcard string pattern cost is 14577.6418, Boyer Moore algorithm implementation is 929.0357
-```
+>Release: bytes pattern cost is 676.126699999998 , string pattern cost is 608.047799999999 , wildcard string pattern cost is 14577.6418, Boyer Moore algorithm implementation is 929.0357
+ 
 P.S: BM implementation that I have used is here : https://stackoverflow.com/a/6964519
 
 But notice that you should move these code to constructor:
