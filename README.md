@@ -73,9 +73,7 @@ result = BytesFinder.FindIndex(source, "?? ?? ?? ?? ?? ?? ?? ?? ??");
 
 >Release: bytes pattern cost is 676.126699999998 , string pattern cost is 608.047799999999 , wildcard string pattern cost is 14577.6418, Boyer Moore algorithm implementation is 929.0357
  
-P.S: BM implementation that I have used is here : https://stackoverflow.com/a/6964519
-
-But notice that you should move these code to constructor, or this BM impl would be very slow:
+P.S: BM implementation that I have used is [here](https://stackoverflow.com/a/6964519). But notice that you should move these code to constructor, or this BM impl would be very slow:
 ```
 ComputeLast();
 ComputeMatch();
