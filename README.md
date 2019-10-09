@@ -75,7 +75,7 @@ result = BytesFinder.FindIndex(source, "?? ?? ?? ?? ?? ?? ?? ?? ??");
  
 P.S: BM implementation that I have used is here : https://stackoverflow.com/a/6964519
 
-But notice that you should move these code to constructor:
+But notice that you should move these code to constructor, or this BM impl would be very slow:
 ```
 ComputeLast();
 ComputeMatch();
